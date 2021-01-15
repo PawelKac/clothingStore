@@ -48,4 +48,16 @@ public class Product {
     public Integer getProductCount(){
         return productCount;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", productName='" + productName + '\'' +
+                ", price=" + price +
+                ", weight=" + weight +
+                ", color='" + color + '\'' +
+                ", productCount=" + productCount +
+                '}';
+    }
 }
